@@ -1,2 +1,2 @@
 # occ-utplsql
-Converter for ora* CODECOP to utPLSQL
+Create utPLSQL unit tests from ora* CODECOP rules
