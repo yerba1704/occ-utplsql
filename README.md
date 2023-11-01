@@ -17,7 +17,13 @@ To see the full package source code for a unit test package containing all rules
 `exec occ.utplsql.ut_package;`
 
 To install a unit test package without the default name and without printing  to DBMS_OUTPUT run:
-`exec occ.utplsql.ut_package(i_package_name => 'OCC_UNIT_TEST', i_create_package => true, i_print_source => false);`
+``````plsql
+begin
+  occ.utplsql.ut_package(i_package_name => 'OCC_UNIT_TEST',
+                         i_create_package => true,
+                         i_print_source => false);
+end;
+``````
 
 ## Installation
 
