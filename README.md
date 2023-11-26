@@ -12,7 +12,7 @@ procedure ut_package(
       i_print_source   in boolean  default true);
 ``````
 
-To see the full package source code for a unit test package containing all rules simple run:  
+To see the full package source code for a unit test package containing all rules simple run:
 
 `exec occ.utplsql.ut_package;`
 
@@ -24,6 +24,10 @@ begin
                          i_print_source => false);
 end;
 ``````
+
+Execute the whole suite or a special test as described in the [utPLSQL documentation](https://www.utplsql.org/utPLSQL/latest/userguide/running-unit-tests.html).
+
+![Example](occ-utplsql.gif?raw=true "utPLSQL converter for ora* CODECOP")
 
 ## Installation
 
